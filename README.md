@@ -6,7 +6,8 @@
 <title>Module 2 Layout</title>
 <link rel="stylesheet" href="css/style.css">
 <style>
-/* Base styles */
+
+  /* Base styles */
 * {
   box-sizing: border-box;
   margin: 0;
