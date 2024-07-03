@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Module 3 Layout</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA:wght@100..400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA:wght@100..400&display=swap" rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header>
@@ -15,13 +16,13 @@
       <div class="container">
         <div class="navbar-header">
           <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img" alt="logo image"></div>
+            <div id="logo-img" alt="Logo image"></div>
           </a>
 
           <div class="navbar-brand">
             <a href="index.html"><h1>Nyla's Playhouse</h1></a>
             <p>
-              <img src="\Users\chewa\Pictures\Nyla.jpg" alt="Kosher certification">
+              <img src="Pictures\Nyla.jpg" alt="Nyla certified">
               <span>Nyla Certified</span>
             </p>
           </div>
@@ -34,11 +35,20 @@
           </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbar">
-          <ul class="nav navbar-nav visible-xs">
-            <li><a href="#puppies">Puppies</a></li>
-            <li><a href="#kittens">Kittens</a></li>
-            <li><a href="#fish">Fish</a></li>
+        <div class="collapse navbar-collapse" id="collapsable-nav">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="Playhouse Friends-categories.html">
+              <span class="glyphicon glyphicon-heart"></span>span><br class=hidden-xs'> Friends</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-home"></span>span><br class=hidden-xs'> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-ice-lolly-tasted"></span>span><br class=hidden-xs'> Memories</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -69,6 +79,12 @@
       </div>
     </div>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
