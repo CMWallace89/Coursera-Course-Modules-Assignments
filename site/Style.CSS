@@ -143,8 +143,7 @@ height: 80px;
 }
 .navbar-brand h1 { /*Nyla's Playhouse */
   padding-top: 10px;
-  font-size: 5vw;
-  margin-top: 15px;
+  font-size: 5vw; /* 1vw = 1% of viewport width */
 }
 .navbar-brand p { /*Nyla Cert */
 font-size: .6em;
@@ -152,9 +151,15 @@ margin-top: 12px;
 }
 .navbar-brand p img { /* Nyla's Cert pic */
 height: 20px;
-  }
 }
 
+#collapsable-nav a { /* Collapsaed nav menu glyph */
+font-size: 1.2em;
+}
+#collapsable-nav a span { 
+font-size: 1em;
+margin-right: 5px;
+}
 /* End Header */
   }
 }
