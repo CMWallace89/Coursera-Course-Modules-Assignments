@@ -104,15 +104,30 @@ border: 1px solid #61122f;
 
 .navbar-header button.navbar-toggle {
 clear: both;
+margin-top: -30px;
 }
 /* Media Queries */
-@media (max-width: 992px) {
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
   .col-lg-4 {
     width: 50%;
   }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-lg-4, .col-md-6, .col-md-12 {
+    width: 100%;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
+  .col-lg-4, .col-md-6, .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
   .col-lg-4, .col-md-6, .col-md-12 {
     width: 100%;
   }
