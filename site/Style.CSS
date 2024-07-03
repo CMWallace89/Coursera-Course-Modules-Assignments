@@ -84,20 +84,19 @@ p {
   vertical-align: middle;
 }
 
-/* Additional styles */
-.navbar-default {
-  background-color: #fff;
+#nav-list {
+margin-top: 10px;
 }
-
-.navbar-toggle {
-  float: right;
-  margin-right: 10px;
+#nav-list a {
+Color: #951C49
+text-align: center;
 }
-
-.navbar-brand {
-  float: left;
+#nav-list a:hover {
+background: #E7E7E7;
 }
-
+#nav-list a span {
+font-size: 1.8em;
+}
 /* Media Queries */
 @media (max-width: 992px) {
   .col-lg-4 {
