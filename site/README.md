@@ -51,12 +51,13 @@
             </li>
           </ul>
         </div>
+      
       </div>
     </nav>
   </header>
 
   <div class="container">
-    <h1 class="text-center">Our Menu</h1>
+    <h1 class="text-center">Playhouse Friends</h1>
 
     <div class="row">
       <div class="col-lg-4 col-md-6 col-xs-12">
