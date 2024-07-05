@@ -18,15 +18,13 @@
           <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img" alt="Logo image"></div>
           </a>
-
           <div class="navbar-brand">
             <a href="index.html"><h1>Nyla's Playhouse</h1></a>
             <p>
-              <img src="Pictures\Nyla.jpg" alt="Nyla certified">
+              <img src="Pictures/Nyla.jpg" alt="Nyla certified">
               <span>Nyla Certified</span>
             </p>
           </div>
-
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -34,31 +32,27 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-
         <div class="collapse navbar-collapse" id="collapsable-nav">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
               <a href="Playhouse Friends-categories.html">
-              <span class="glyphicon glyphicon-heart"></span>span><br class=hidden-xs'> Friends</a>
+              <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Friends</a>
             </li>
             <li>
               <a href="#">
-                <span class="glyphicon glyphicon-home"></span>span><br class=hidden-xs'> About</a>
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> About</a>
             </li>
             <li>
               <a href="#">
-                <span class="glyphicon glyphicon-ice-lolly-tasted"></span>span><br class=hidden-xs'> Memories</a>
+                <span class="glyphicon glyphicon-ice-lolly-tasted"></span><br class="hidden-xs"> Memories</a>
             </li>
           </ul>
         </div>
-      
       </div>
     </nav>
   </header>
-
   <div class="container">
     <h1 class="text-center">Playhouse Friends</h1>
-
     <div class="row">
       <div class="col-lg-4 col-md-6 col-xs-12">
         <div class="section" id="puppies">
@@ -80,12 +74,17 @@
       </div>
     </div>
   </div>
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="" alt="Nyla's Playhouse" class="img-responsive visible-xs">
+    </div>
+  </div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
 
-<div id="main-content" class="container">
-<div class="jumbotron">
-  <img src="" alt="Nyla's Playhouse"
-    class="img-responsive visible-xs">
-</div>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
