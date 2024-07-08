@@ -34,7 +34,10 @@
     }
     /* Header Styles */
     .navbar-default {
-      background-color: #fff;
+      background-color: #D7E97B;
+      border: none;
+      border-radius: 0;
+      margin-bottom: 0;
     }
     #header-nav {
       background-color: #D7E97B;
@@ -76,6 +79,52 @@
       box-shadow: 0 0 50px #A999EB;
       border: 2px solid #A999EB;
     }
+    /* Media Queries */
+    @media (min-width: 1200px) {
+      .container .jumbotron {
+        background: url('Images/Ny\'s Playhouse 1200.jpg') no-repeat;
+        height: 675px;
+      }
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      #logo-img {
+        background: url('Images/Ny\'s Playhouse 992.jpg') no-repeat;
+        width: 100%;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+      }
+      .container .jumbotron {
+        background: url('Images/Ny\'s Playhouse 992.jpg') no-repeat;
+        height: 575px;
+      }
+    }
+    @media (max-width: 991px) {
+      .navbar-brand h1 {
+        font-size: 1.2em;
+      }
+      .container .jumbotron {
+        background: url('Images/Ny\'s Playhouse 768.jpg') no-repeat;
+        height: 375px;
+      }
+      .navbar-brand p {
+        font-size: .6em;
+        margin-top: 12px;
+      }
+      .navbar-brand p img {
+        height: 20px;
+      }
+      #collapsable-nav a {
+        font-size: 1.2em;
+      }
+      #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+      }
+      .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -83,12 +132,6 @@
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
           <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img"></div>
           </a>
@@ -99,6 +142,12 @@
               <span>Nyla Certified</span>
             </p>
           </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
         <div class="collapse navbar-collapse" id="navbar">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
@@ -157,3 +206,4 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+
