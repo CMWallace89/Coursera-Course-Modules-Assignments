@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nyla's Playhouse: Module 4 Assignment</title>
+  <title>Nyla's Playhouse: Module 3 Assignment</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet'>
@@ -40,7 +40,7 @@
       background-color: #D7E97B;
     }
     #logo-img {
-      background: url('Images/Ny\'s Playhouse.jpg') no-repeat;
+      background: url('Images/Ny's Playhouse.jpg') no-repeat;
       width: 150px;
       height: 150px;
       margin: 10px 15px 10px 0;
