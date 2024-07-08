@@ -1,65 +1,103 @@
-body {
-  font-family: 'Playwrite DE VA', cursive;
-  background-color: #A999EB;
-  color: #D35E7F;
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .section {
   border: 1px solid #000;
-  background-color: #fff;
+  background-color: #A999EB; /* Max Blue Purple */
   padding: 15px;
   margin-bottom: 30px;
   position: relative;
-  color: #000;
 }
+
 .section-title {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #D35E7F;
+  background-color: #D35E7F; /* Cinnamon Satin */
   padding: 5px 10px;
   color: #fff;
   font-size: 75%;
 }
+
+p {
+  margin-top: 25px;
+}
+
+/* Additional styles */
 .navbar-default {
   background-color: #fff;
 }
-#header-nav {
-  background-color: #D7E97B;
+
+.navbar-toggle {
+  float: right;
+  margin-right: 10px;
 }
+
+.navbar-brand {
+  float: left;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #9BCDEF; /* Baby Blue Eyes */
+  font-family: 'Playwrite DE VA', cursive;
+}
+
+/* Header */
+#header-nav {
+  background-color: #D7E97B; /* Manz */
+  border-radius: 0;
+  border: 0;
+}
+
 #logo-img {
-  background: url('../Images/Ny\'s Playhouse.jpg') no-repeat;
+  background: url('../Images/Ny's Playhouse.jpg') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
 }
-.navbar-brand h1 {
-  font-family: 'Playwrite DE VA', cursive;
-  color: #D35E7F;
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Page Name */
+  font-family: "Playwrite DE VA", cursive;
+  color: #D35E7F; /* Cinnamon Satin */
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
 }
-.navbar-brand p {
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p { /* Nyla cert */
   color: #000;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
 }
-.navbar-brand p img {
-  vertical-align: middle;
-}
-#nav-list a {
-  color: #D35E7F;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a:active {
-  color: #D7E97B;
-}
-.container .jumbotron {
-  box-shadow: 0 0 50px #A999EB;
-  border: 2px solid #A999EB;
-}
+
+.navbar-brand p span { /* Nyla
