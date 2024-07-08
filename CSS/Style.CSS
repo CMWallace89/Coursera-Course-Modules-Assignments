@@ -10,6 +10,13 @@ body {
   margin-bottom: 30px;
   position: relative;
   color: #000;
+  text-align: center;
+}
+.section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px auto;
 }
 .section-title {
   position: absolute;
@@ -62,7 +69,7 @@ body {
   color: #D35E7F;
   text-align: center;
 }
-#nav-list a:float {
+#nav-list a:hover {
   background: #E7E7E7;
 }
 #nav-list a:active {
@@ -71,6 +78,10 @@ body {
 .container .jumbotron {
   box-shadow: 0 0 50px #A999EB;
   border: 2px solid #A999EB;
+}
+.container .jumbotron img {
+  width: 100%;
+  height: auto;
 }
 /* Media Queries */
 @media (min-width: 1200px) {
@@ -91,7 +102,7 @@ body {
     height: 575px;
   }
 }
-@media (min-width:768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .navbar-brand h1 {
     font-size: 1.2em;
   }
