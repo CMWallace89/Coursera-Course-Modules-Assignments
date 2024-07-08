@@ -18,11 +18,10 @@
           <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img" alt="Logo image"></div>
           </a>
-
           <div class="navbar-brand">
             <a href="index.html"><h1>Nyla's Playhouse</h1></a>
             <p>
-              <img src="Pictures\Nyla.jpg" alt="Nyla certified">
+              <img src="Pictures\Nyla.jpg" alt="Nyla certification">
               <span>Nyla Certified</span>
             </p>
           </div>
@@ -79,7 +78,7 @@
       </div>
     </div>
   </div>
-
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
