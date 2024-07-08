@@ -2,34 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nyla's Playhouse: Module 4 Assignment</title>
+  <title>Nyla's Playhouse: Module 3 Assignment</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA:wght@100..400&display=swap" rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA:wght@100..400&display=swap" rel='stylesheet'>
   <style>
-    /* Base styles */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
+    /* Custom CSS inside HTML for testing */
     body {
       font-family: 'Playwrite DE VA', cursive;
-      font-size: 16px;
-      background-color: #A999EB; /* Max Blue Purple */
-      color: #D35E7F; /* Cinnamon Satin */
-      padding: 20px;
+      background-color: #A999EB;
+      color: #D35E7F;
     }
-
-    h1 {
-      margin-bottom: 20px;
-      text-align: center;
-    }
-
     .section {
       border: 1px solid #000;
       background-color: #fff;
@@ -38,174 +23,58 @@
       position: relative;
       color: #000;
     }
-
     .section-title {
       position: absolute;
       top: 0;
       right: 0;
-      background-color: #D35E7F; /* Cinnamon Satin */
+      background-color: #D35E7F;
       padding: 5px 10px;
       color: #fff;
       font-size: 75%;
     }
-
-    p {
-      margin-top: 25px;
-    }
-
-    /* Additional styles */
+    /* Header Styles */
     .navbar-default {
       background-color: #fff;
     }
-
-    .navbar-toggle {
-      float: right;
-      margin-right: 10px;
-    }
-
-    .navbar-brand {
-      float: left;
-    }
-
-    /* Header */
     #header-nav {
-      background-color: #D7E97B; /* Manz */
-      border-radius: 0;
-      border: 0;
+      background-color: #D7E97B;
     }
-
     #logo-img {
-      background: url('../Images/Ny's Playhouse.jpg') no-repeat;
+      background: url('Images/Ny's Playhouse.jpg') no-repeat;
       width: 150px;
       height: 150px;
       margin: 10px 15px 10px 0;
     }
-
-    .navbar-brand {
-      padding-top: 25px;
-    }
-
-    .navbar-brand h1 { /* Page Name */
-      font-family: "Playwrite DE VA", cursive;
-      color: #D35E7F; /* Cinnamon Satin */
+    .navbar-brand h1 {
+      font-family: 'Playwrite DE VA', cursive;
+      color: #D35E7F;
       font-size: 1.5em;
       text-transform: uppercase;
       font-weight: bold;
       text-shadow: 1px 1px 1px #222;
-      margin-top: 0;
-      margin-bottom: 0;
-      line-height: .75;
     }
-
-    .navbar-brand a:hover, .navbar-brand a:focus {
-      text-decoration: none;
-    }
-
-    .navbar-brand p { /* Nyla cert */
+    .navbar-brand p {
       color: #000;
       text-transform: uppercase;
       font-size: .7em;
       margin-top: 15px;
     }
-
-    .navbar-brand p span { /* Nyla Cert Pic */
+    .navbar-brand p img {
       vertical-align: middle;
     }
-
-    #nav-list {
-      margin-top: 10px;
-    }
-
     #nav-list a {
-      color: #D35E7F; /* Cinnamon Satin */
+      color: #D35E7F;
       text-align: center;
     }
-
     #nav-list a:hover {
       background: #E7E7E7;
     }
-
     #nav-list a:active {
-      color: #D7E97B; /* Manz */
+      color: #D7E97B;
     }
-
-    #nav-list a span {
-      font-size: 1.8em;
-    }
-
-    .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-      border: 1px solid #D35E7F; /* Cinnamon Satin */
-    }
-
-    .navbar-header button.navbar-toggle {
-      clear: both;
-      margin-top: -30px;
-    }
-
-    /* Main content */
     .container .jumbotron {
-      box-shadow: 0 0 50px #A999EB; /* Max Blue Purple */
-      border: 2px solid #A999EB; /* Max Blue Purple */
-    }
-
-    /* Media Queries */
-    /********** Large devices only **********/
-    @media (min-width: 1200px) {
-      .container .jumbotron {
-        background: url('../Images/Ny's Playhouse 1200.jpg') no-repeat;
-        height: 675px;
-      }
-    }
-
-    /********** Medium devices only **********/
-    @media (min-width: 992px) and (max-width: 1199px) {
-      /* Header */
-      #logo-img {
-        background: url('../Images/Ny's Playhouse 992.jpg') no-repeat;
-        width: 100%;
-        height: 100px;
-        margin: 5px 5px 5px 0;
-      }
-      /* End Header */
-      .container .jumbotron {
-        background: url('../Images/Ny's Playhouse 992.jpg') no-repeat;
-        height: 575px;
-      }
-    }
-
-    /********** Small devices only **********/
-    @media (max-width: 991px) {
-      .navbar-brand h1 {
-        font-size: 1.2em;
-      }
-
-      .container .jumbotron {
-        background: url('../Images/Ny's Playhouse 768.jpg') no-repeat;
-        height: 375px;
-      }
-
-      .navbar-brand p {
-        font-size: .6em;
-        margin-top: 12px;
-      }
-
-      .navbar-brand p img {
-        height: 20px;
-      }
-
-      #collapsable-nav a {
-        font-size: 1.2em;
-      }
-
-      #collapsable-nav a span {
-        font-size: 1em;
-        margin-right: 5px;
-      }
-
-      .container .jumbotron {
-        margin-top: 30px;
-        padding: 0;
-      }
+      box-shadow: 0 0 50px #A999EB;
+      border: 2px solid #A999EB;
     }
   </style>
 </head>
@@ -215,7 +84,7 @@
       <div class="container">
         <div class="navbar-header">
           <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img" alt="Logo image"></div>
+            <div id="logo-img"></div>
           </a>
           <div class="navbar-brand">
             <a href="index.html"><h1>Nyla's Playhouse</h1></a>
@@ -275,7 +144,7 @@
   </div>
   <div id="main-content" class="container">
     <div class="jumbotron">
-      <img src="" alt="Nyla's Playhouse" class="img-responsive visible-xs">
+      <img src="Images/Ny's Playhouse.jpg" alt="Nyla's Playhouse" class="img-responsive visible-xs">
     </div>
   </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
