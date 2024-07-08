@@ -35,15 +35,15 @@
         <div class="collapse navbar-collapse" id="collapsable-nav">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
-              <a href="Playhouse Friends-categories.html">
+              <a href="#Playhouse Friends">
               <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Friends</a>
             </li>
             <li>
-              <a href="#">
+              <a href="#Play House Rules">
                 <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> About</a>
             </li>
             <li>
-              <a href="#">
+              <a href="#Nyla's Memories">
                 <span class="glyphicon glyphicon-ice-lolly-tasted"></span><br class="hidden-xs"> Memories</a>
             </li>
           </ul>
