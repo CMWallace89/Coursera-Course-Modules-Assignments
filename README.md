@@ -40,7 +40,7 @@
             </li>
             <li>
               <a href="#">
-                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Play House Rules</a>
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Playhouse Rules</a>
             </li>
             <li>
               <a href="#">
