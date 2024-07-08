@@ -25,7 +25,6 @@
               <span>Nyla Certified</span>
             </p>
           </div>
-
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -33,30 +32,27 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-
         <div class="collapse navbar-collapse" id="collapsable-nav">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
-              <a href="Playhouse Friends-categories.html">
-              <span class="glyphicon glyphicon-heart"></span>span><br class=hidden-xs'> Friends</a>
+              <a href="#">
+              <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Playhouse Friends</a>
             </li>
             <li>
               <a href="#">
-                <span class="glyphicon glyphicon-home"></span>span><br class=hidden-xs'> About</a>
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Playhouse Rules</a>
             </li>
             <li>
               <a href="#">
-                <span class="glyphicon glyphicon-ice-lolly-tasted"></span>span><br class=hidden-xs'> Memories</a>
+                <span class="glyphicon glyphicon-ice-lolly-tasted"></span><br class="hidden-xs"> Nyla's Memories</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-
   <div class="container">
-    <h1 class="text-center">Our Menu</h1>
-
+    <h1 class="text-center">Playhouse Friends</h1>
     <div class="row">
       <div class="col-lg-4 col-md-6 col-xs-12">
         <div class="section" id="puppies">
@@ -78,15 +74,23 @@
       </div>
     </div>
   </div>
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="" alt="Nyla's Playhouse" class="img-responsive visible-xs">
+    </div>
+  </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
+
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
+
