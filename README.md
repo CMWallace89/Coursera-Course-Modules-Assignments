@@ -49,8 +49,8 @@
       margin: 10px 15px 10px 0;
     }
     .navbar-brand {
-      display: flex;
-      align-items: center;
+      display: fluid;
+      align-items: right;
     }
     .navbar-brand h1 {
       font-family: 'Playwrite DE VA', cursive;
@@ -68,11 +68,11 @@
       margin-top: 15px;
     }
     .navbar-brand p img {
-      vertical-align: middle;
+      vertical-align: left;
     }
     #nav-list a {
       color: #D35E7F;
-      text-align: center;
+      text-align: right;
     }
     #nav-list a:hover {
       background: #E7E7E7;
