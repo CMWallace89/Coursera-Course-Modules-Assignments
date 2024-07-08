@@ -81,14 +81,8 @@
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
           <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img"></div>
           </a>
@@ -99,12 +93,18 @@
               <span>Nyla Certified</span>
             </p>
           </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-        <div class="collapse navbar-collapse" id="navbar">
+        <div class="collapse navbar-collapse" id="collapsable-nav">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
               <a href="#">
-                <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Playhouse Friends</a>
+              <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Playhouse Friends</a>
             </li>
             <li>
               <a href="#">
@@ -120,9 +120,6 @@
     </nav>
   </header>
   <div class="container">
-    <div class="jumbotron">
-      <img src="Images/Ny's Playhouse.jpg" alt="Nyla's Playhouse" class="img-responsive visible-xs">
-    </div>
     <h1 class="text-center">Playhouse Friends</h1>
     <div class="row">
       <div class="col-lg-4 col-md-6 col-xs-12">
@@ -143,6 +140,11 @@
           <p>Beneath the shimmering surface of an aquatic world, fish glide with elegance and tranquility. From the vibrant hues of tropical fish to the serene movements of koi in a pond, each species tells a tale of underwater grace. Their tranquil presence and mesmerizing beauty bring a sense of peace and wonder, inviting us to glimpse a world of silent enchantment below the waves.</p>
         </div>
       </div>
+    </div>
+  </div>
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="Images/Ny's Playhouse.jpg" alt="Nyla's Playhouse" class="img-responsive visible-xs">
     </div>
   </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
