@@ -21,7 +21,7 @@
           <div class="navbar-brand">
             <a href="index.html"><h1>Nyla's Playhouse</h1></a>
             <p>
-              <img src="Pictures/Nyla.jpg" alt="Nyla certification">
+              <img src="Pictures/Ny.jpg" alt="Nyla certification">
               <span>Nyla Certified</span>
             </p>
           </div>
