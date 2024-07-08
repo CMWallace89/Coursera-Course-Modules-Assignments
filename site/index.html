@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nyla's Playhouse: Module 3 Assignment</title>
+  <title>Nyla's Playhouse: Module 4 Assignment</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet'>
@@ -43,10 +43,14 @@
       background-color: #D7E97B;
     }
     #logo-img {
-      background: url('Images/Ny's Playhouse small.jpg') no-repeat;
+      background: url('Images/Ny\'s Playhouse.jpg') no-repeat;
       width: 150px;
       height: 150px;
       margin: 10px 15px 10px 0;
+    }
+    .navbar-brand {
+      display: flex;
+      align-items: center;
     }
     .navbar-brand h1 {
       font-family: 'Playwrite DE VA', cursive;
@@ -55,6 +59,7 @@
       text-transform: uppercase;
       font-weight: bold;
       text-shadow: 1px 1px 1px #222;
+      margin-right: 15px;
     }
     .navbar-brand p {
       color: #000;
@@ -132,22 +137,22 @@
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
-          </a>
-          <div class="navbar-brand">
-            <a href="index.html"><h1>Nyla's Playhouse</h1></a>
-            <p>
-              <img src="Images/Ny Cert.png" alt="Nyla certification">
-              <span>Nyla Certified</span>
-            </p>
-          </div>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+          <div class="navbar-brand">
+            <h1>Nyla's Playhouse</h1>
+            <p>
+              <img src="Images/Ny Cert.png" alt="Nyla certification">
+              <span>Nyla Certified</span>
+            </p>
+          </div>
         </div>
         <div class="collapse navbar-collapse" id="navbar">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
@@ -206,4 +211,3 @@
   <script src="js/script.js"></script>
 </body>
 </html>
-
