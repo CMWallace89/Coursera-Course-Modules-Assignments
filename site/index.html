@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nyla's Playhouse: Module 3 Assignment</title>
+  <title>Nyla's Playhouse: Module 4 Assignment</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet'>
@@ -40,7 +40,7 @@
       background-color: #D7E97B;
     }
     #logo-img {
-      background: url('Images/Ny's Playhouse.jpg') no-repeat;
+      background: url('Images/Ny\'s Playhouse.jpg') no-repeat;
       width: 150px;
       height: 150px;
       margin: 10px 15px 10px 0;
@@ -60,7 +60,7 @@
       margin-top: 15px;
     }
     .navbar-brand p img {
-      collapse: right;
+      vertical-align: middle;
     }
     #nav-list a {
       color: #D35E7F;
@@ -83,7 +83,12 @@
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-eapanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img"></div>
           </a>
@@ -94,18 +99,12 @@
               <span>Nyla Certified</span>
             </p>
           </div>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
         </div>
-        <div class="collapse navbar-collapse" id="collapsable-nav">
+        <div class="collapse navbar-collapse" id="navbar">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
               <a href="#">
-              <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Playhouse Friends</a>
+                <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Playhouse Friends</a>
             </li>
             <li>
               <a href="#">
