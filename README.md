@@ -120,6 +120,9 @@
     </nav>
   </header>
   <div class="container">
+    <div class="jumbotron">
+      <img src="Images/Ny's Playhouse.jpg" alt="Nyla's Playhouse" class="img-responsive visible-xs">
+    </div>
     <h1 class="text-center">Playhouse Friends</h1>
     <div class="row">
       <div class="col-lg-4 col-md-6 col-xs-12">
@@ -140,11 +143,6 @@
           <p>Beneath the shimmering surface of an aquatic world, fish glide with elegance and tranquility. From the vibrant hues of tropical fish to the serene movements of koi in a pond, each species tells a tale of underwater grace. Their tranquil presence and mesmerizing beauty bring a sense of peace and wonder, inviting us to glimpse a world of silent enchantment below the waves.</p>
         </div>
       </div>
-    </div>
-  </div>
-  <div id="main-content" class="container">
-    <div class="jumbotron">
-      <img src="Images/Ny's Playhouse.jpg" alt="Nyla's Playhouse" class="img-responsive visible-xs">
     </div>
   </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
