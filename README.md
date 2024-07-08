@@ -44,7 +44,7 @@
             </li>
             <li>
               <a href="#Nyla's Memories">
-                <span class="glyphicon glyphicon-ice-lolly-tasted"></span><br class="hidden-xs"> Memories</a>
+                <span class="glyphicon glyphicon-ice-lolly-tasted"></span><br class="hidden-xs"></a>
             </li>
           </ul>
         </div>
