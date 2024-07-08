@@ -66,7 +66,7 @@
       color: #D35E7F;
       text-align: center;
     }
-    #nav-list a:hover {
+    #nav-list a:fluid {
       background: #E7E7E7;
     }
     #nav-list a:active {
@@ -102,17 +102,23 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Playhouse Friends</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Playhouse Rules</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-ice-lolly-tasted"></span><br class="hidden-xs"> Nyla's Memories</a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <span class="glyphicon glyphicon-menu-hamburger"></span><br class="hidden-xs"> Menu <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-heart"></span> Playhouse Friends</a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-home"></span> Playhouse Rules</a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-ice-lolly-tasted"></span> Nyla's Memories</a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
